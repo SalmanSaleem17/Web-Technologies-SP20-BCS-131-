@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 720px;
+    height:1000px;
+    border:3px solid black;
+    margin: 3% auto;
+}
+
+#upper_div{
+    height: 70px;
+    width: 100%;
+}
+
+#name_pic{
+    height: 180px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    row-gap: 5px;
+}
+
+#info{
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1.5fr 1.5fr 1fr;
+    padding-left: 10%;
+}
+
+#name{
+    font-family: Calibri;
+    color: blue;
+    font-weight: bolder;
+    font-size: 29px;
+    text-shadow:1px 1px cyan;
+}
+
+#contact{
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+}
+
+#cnt_logo{
+    height: 25px;
+    margin-top: 20%;
+}
+
+#cnt_no{
+    font-weight: bolder;
+    font-family: Calibri;
+    margin-top: 10px;
+}
+
+
+#gmail{
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+}
+
+#glg{
+    margin-top: 5px;
+}
+
+#mail{
+    margin-top: 5px;
+    font-weight: bolder;
+    color: blue;
+    font-family: Calibri;
+}
+
+#my_pic{
+    margin-right: 25%;
+}
+
+#pf_img{
+    width: 145px;
+    float: right;
+}
+
+.my_info{
+    height: 30px;
+    width: content-box;
+    background-color: cornflowerblue;
+    margin-top: 1.75%;
+    margin-left: 7%;
+    margin-right: 8%;
+    font-family: Calibri;
+    font-weight: bolder;
+    color: white;
+    padding-left: 10px;
+    font-size: 22px;
+}
+
+#academic_info{
+    height: 270px;
+    width: content-box;
+    margin-left: 7%;
+    margin-right: 8%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#university{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#college{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#school{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.academic_logos{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+.course{
+    font-family: Calibri;
+    font-weight: bolder;
+    font-size: 18px;
+    padding-top: 25px;
+}
+
+.session{
+    padding-left: 20px;
+    font-family: Calibri;
+    font-weight: bolder;
+}
+
+table{
+    width: content-box;
+    margin-left: 10%;
+    margin-right: 8%;
+    font-family: Calibri;
+}
+
+.table_data{
+    padding-left: 20px;
+    font-weight: bolder;
+}
+
+ul{
+    padding-left: 13%;
+    font-family: Calibri;
+    list-style-type: circle;
+    font-weight: bolder;
+}
+
+
+
+
+
+
